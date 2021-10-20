@@ -4,7 +4,7 @@ const tick_x = 'X';
 let currentPlayer = tick_x;// takes a value of either 'X' or 'O' according to the game turns
 
 //initialize the game
-const cells = document.querySelectorAll("gameboard")
+
 const addPlayerMove = e => {
     if (spaces[e] == "") {
       spaces[e] = currentPlayer;
